@@ -29,10 +29,6 @@ def get_japanese_emoticon(emoticon_file, emoticon)
        if :english[emoticon]
          :japanese[emoticon]
        end
-binding.pry
-  
-
- 
 end
 
 def get_english_meaning(emoticon_file, emoticon)
