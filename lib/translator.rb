@@ -34,5 +34,5 @@ def get_english_meaning(emoticon_file, emoticon)
       return meaning
     end
   end 
-  ""
+  
 end
