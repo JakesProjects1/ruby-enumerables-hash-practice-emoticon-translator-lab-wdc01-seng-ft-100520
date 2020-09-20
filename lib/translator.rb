@@ -15,13 +15,14 @@ emoticons.each do |meaning, value|
     emoticon_lib[meaning][:japanese] = japanese
     emoticon_lib[meaning][:english] = english
 end
-  emoticon_lib
+  $emoticon_lib
 end
 
 
 
 def get_japanese_emoticon(emoticon_file, emoticon)
    emoticon_lib = load_library(emoticon_file)
+   
 end
 
 def get_english_meaning(emoticon_file, emoticon)
