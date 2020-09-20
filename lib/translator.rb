@@ -30,7 +30,7 @@ def get_english_meaning(emoticon_file, emoticon)
   emoticon_lib = load_library(emoticon_file)
   emoticon_lib.each do |meaning, value|
   binding.pry
-    if emoticon == 1
+    if emoticon == 
       return meaning
     end
   end 
