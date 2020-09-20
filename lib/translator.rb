@@ -15,7 +15,7 @@ emoticons.each do |meaning, value|
     emoticon_lib[meaning][:japanese] = japanese
     emoticon_lib[meaning][:english] = english
 end
-  $emoticon_lib
+  emoticon_lib
 end
 
 
